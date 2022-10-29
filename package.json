@@ -1,0 +1,23 @@
+{
+  "name": "WordBank",
+  "version": "0.0.0",
+  "description": "API for retriving words for a hangman game",
+  "main": "index.js",
+  "repository": "github.com/rimij405/word-bank",
+  "author": "Ian Effendi, Leo Holman",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "fastify": "^4.9.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node18-strictest-esm": "^1.0.1",
+    "@types/node": "^18.11.7",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node src/index.js"
+  }
+}
