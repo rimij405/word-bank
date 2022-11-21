@@ -9,7 +9,7 @@
   "private": false,
   "type": "module",
   "dependencies": {
-    "fastify": "^4.9.2"
+    "fastify": "^4.10.2"
   },
   "devDependencies": {
     "@tsconfig/node18-strictest-esm": "^1.0.1",
